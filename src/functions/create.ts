@@ -1,5 +1,5 @@
 import { APIGatewayProxyHandler } from "aws-lambda";
-import { document } from "src/utils/dynamodbClient";
+import { document } from "../utils/dynamodbClient";
 
 interface ICreateTodo {
     title: string;
